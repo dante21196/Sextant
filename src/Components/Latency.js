@@ -23,7 +23,7 @@ export default function Latency() {
   <div className="card-body" >
     <h5 className="card-title">User Latency Measure</h5>
     <p className="card-text">Latency : {Latency}</p>
-    <a href="#" className="btn btn-primary" onClick={handleClick }>Measure Latency</a>
+    <button className="btn btn-primary" onClick={handleClick }>Measure Latency</button>
   </div>
 </div>
   
